@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Animado</title>
+    <link rel="stylesheet" href="./03-Protfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <h2 class="heading">
+            <span class="skyblue">Mi
+
+            </span>
+            <span>Portafolio</span>
+        </h2>
+        <!-- Creamos una lista  -->
+        <ul>
+            <li><a href="#" target="_blank">Acerca de mi</a></li>
+            <li><a href="#" target="_blank">Servicios</a></li>
+            <li><a href="#" target="_blank">Contacto</a></li>
+
+        </ul>
+        <!-- otra lista con menu hamburguesa -->
+        <ul class="hamburguer" id="menuBar">
+            <li><i class="fa-solid fa-bars"></i></li>
+        </ul>
+        <div class="lists" id="menuLists">
+            <li id="cross"><i class="fa-solid fa-xmark"></i></li>
+            <ul class="items">
+                <li><a href="#" target="_blank">Acerca de mi</a></li>
+                <li><a href="#" target="_blank">Servicios</a></li>
+                <li><a href="#" target="_blank">Contacto</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <!-- SECCIÓN CON UN SALUDo DE PREsENTACIÓN Y UNA BREVE DESCRIPCION  -->
+    <section class="mainSection">
+        <div class="content">
+            <h2 class="title">
+                <span class="minorHeading">
+                    Hola!
+                </span><br>
+                <span class="mainHeading">
+                    Soy <span class="danger">Christian|</span>
+                </span>
+            </h2>
+            <p class="description">
+                Hola me llamo <span class="custom">Christian Bogado</span> tengo 32 años y hace poco me he involucrado
+                en el mundo del desarrollo y la programación.
+                He estado haciendo cursos de manera online para poder aprender a crear Webs y sigo en constante
+                aprendisaje.
+                Me encanta este mundo de la IT ya que nunca dejas de aprender y tu mente siempre se mantiene trabajando
+                y perfeccionando.
+            </p>
+            <div class="buttons">
+                <button class="hireBtn">Contrátame</button>
+                <button class="chat"><i class="fa-brands fa-rocketchat">Hablemos</i></i></button>
+            </div>
+
+            <!-- PONEMOS NUESTRAS REDES SOCIALES PARA CONTACTAT -->
+            <div class="social">
+                <li class="fa-brands fa-instagram"></li>
+                <li class="fa-brands fa-linkedin"></li>
+                <li class="fa brands fa-facebook"></li>
+            </div>
+        </div>
+
+        <!-- nuestra foto -->
+        <div class="user">
+            <img src="./03-img/perfil2.jpg" alt="imagen">
+        </div>
+
+    </section>
+
+
+</body>
+
+<script src="./03-script.js"></script>
+
+
+
+
+
+
+
+</html>
